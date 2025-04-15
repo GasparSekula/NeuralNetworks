@@ -1,6 +1,6 @@
 # NeuralNetworks
-Multilayer Perceptron implemented from scratch. 
-This project focuses on implementing a **Multilayer Perceptron (MLP)** from scratch using **NumPy**, without relying on high-level libraries like TensorFlow or PyTorch.
+#### Multilayer Perceptron implemented from scratch. 
+#### This project focuses on implementing a **Multilayer Perceptron (MLP)** from scratch using **NumPy**, without relying on high-level libraries like TensorFlow or PyTorch.
 ---
 
 ## 🎯 Project Overview
