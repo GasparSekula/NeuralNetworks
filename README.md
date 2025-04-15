@@ -35,3 +35,21 @@ Each Jupyter Notebook (`NN1.ipynb` → `NN6.ipynb`) reflects a major milestone i
 
 ## 📁 Repository Structure
 NeuralNetworks/ │ ├── data/ # Datasets used for training/testing │ ├── metrics/ # Evaluation metrics │ ├── init.py │ └── metrics.py │ ├── network/ # Core neural network components │ ├── activations.py │ ├── layers.py │ ├── losses.py │ ├── mlp.py │ ├── preprocessing.py │ └── regularization.py │ ├── plots/ # (Optional) Plotting utilities │ ├── visualization/ # Analysis & visualization helpers │ ├── analysis.py │ └── visualization.py │ ├── NN1.ipynb → NN6.ipynb # Jupyter Notebooks for each lab stage ├── report.ipynb # Final report or analysis summary └── README.md # Project documentation (you are here!)
+
+---
+
+## 📌 Key Takeaways
+
+- ✅ **Implemented from scratch**: All components such as layers, losses, activations, and training loops were developed manually.
+- 🔍 **Empirical Analysis**: Rich set of experiments to explore how various parameters affect learning.
+- 📈 **Visualization & Reporting**: Comprehensive visual tools to interpret network performance.
+
+---
+
+## 🧾 Final Notes
+
+This project is a **learning-focused implementation** — designed to solidify your understanding of how MLPs work under the hood. Feel free to explore, experiment, and expand! 🚀
+
+---
+
+> Created as part of an academic laboratory course on Neural Networks.
