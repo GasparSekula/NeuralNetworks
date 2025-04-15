@@ -33,8 +33,59 @@ Each Jupyter Notebook (`NN1.ipynb` → `NN6.ipynb`) reflects a major milestone i
 
 ---
 
-## 📁 Repository Structure
-```NeuralNetworks/ │ ├── data/ # Datasets used for training/testing │ ├── metrics/ # Evaluation metrics │ ├── __init__.py │ └── metrics.py │ ├── network/ # Core neural network components │ ├── __init__.py │ ├── activations.py │ ├── layers.py │ ├── losses.py │ ├── mlp.py │ ├── preprocessing.py │ └── regularization.py │ ├── plots/ # (Optional) Plotting utilities │ ├── visualization/ # Analysis & visualization helpers │ ├── __init__.py │ ├── analysis.py │ └── visualization.py │ ├── NN1.ipynb # Manual weights choice, forward function examples ├── NN2.ipynb # Backpropagation, mini-batch vs full data training ├── NN3.ipynb # RMSProp vs Momentum comparison ├── NN4.ipynb # Classification tasks ├── NN5.ipynb # Architecture experiments (layers, activations, etc.) ├── NN6.ipynb # Regularization techniques comparison │ ├── report.ipynb # Final report or analysis summary └── README.md # Project documentation (you are here!)```
+## 📁 Repository Structure & Description
+
+- **`data/`**  
+  Contains datasets used for training and evaluation.
+
+- **`metrics/`**  
+  Includes evaluation metric logic. Used in former implementation.
+  - `metrics.py`: Implements performance metrics such as MSE and Cross Entropy.
+
+- **`network/`**  
+  Core components for building and training the MLP model.
+  - `activations.py`: Contains activation functions like ReLU, Sigmoid, Tanh.
+  - `layers.py`: Defines neural network layers.
+  - `losses.py`: Implements various loss functions.
+  - `mlp.py`: Main class for the MLP model.
+  - `preprocessing.py`: Preprocessing utilities for dataset handling like Standard Scaler and One Hot Encoding.
+  - `regularization.py`: Techniques like L1 and L2 regularization.
+
+- **`plots/`**  
+  Placeholder for example visualization.
+
+- **`visualization/`**  
+  Tools for analysis and plotting.
+  - `analysis.py`: Code for analyzing model results. Examples in NNx.ipynb.
+  - `visualization.py`: Code for visualizing training progress, weights, etc.
+
+- **`NN1.ipynb`**  
+  Manual weight initialization and forward pass demonstrations.
+
+- **`NN2.ipynb`**  
+  Implementation of backpropagation; comparison of mini-batch vs full-data training.
+
+- **`NN3.ipynb`**  
+  Experiment comparing RMSProp and Momentum optimization strategies.
+
+- **`NN4.ipynb`**  
+  Shift to classification tasks and adjustments to loss/activation functions.
+
+- **`NN5.ipynb`**  
+  Comparison of architectures with varying layers, neurons, and activations.
+
+- **`NN6.ipynb`**  
+  Regularization experiments: L1, L2, and early stopping.
+
+- **`report.ipynb`**  
+  Draft notebook for report.
+
+- **`report.pdf`**
+  Final report including experiments, results analysis and comparison.
+
+- **`README.md`**  
+  This documentation file.
+
 
 ---
 
@@ -48,8 +99,8 @@ Each Jupyter Notebook (`NN1.ipynb` → `NN6.ipynb`) reflects a major milestone i
 
 ## 🧾 Final Notes
 
-This project is a **learning-focused implementation** — designed to solidify your understanding of how MLPs work under the hood. Feel free to explore, experiment, and expand! 🚀
+This project is a **learning-focused implementation** — designed to understand how MLPs work under the hood. Feel free to explore, experiment, and expand! 🚀
 
 ---
 
-> Created as part of an academic laboratory course on Neural Networks.
+> Created as part of an academic laboratory course on Computational Intelligence Methods in Data Analysis (Metody Inteligencji Obliczeniowej w Analizie Danych), a part of Data Science Bachelor Engineering programme at Warsaw University of Technology.
