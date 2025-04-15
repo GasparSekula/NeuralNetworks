@@ -99,7 +99,7 @@ Each Jupyter Notebook (`NN1.ipynb` → `NN6.ipynb`) reflects a major milestone i
 
 ## 🧾 Final Notes
 
-This project is a **learning-focused implementation** — designed to understand how MLPs work under the hood. Feel free to explore, experiment, and expand! 🚀
+This project is a **learning-focused implementation** — designed to understand how MLPs work under the hood. Feel free to explore and experiment! 🚀
 
 ---
 
