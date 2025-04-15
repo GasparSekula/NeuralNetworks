@@ -58,23 +58,8 @@ Each Jupyter Notebook (`NN1.ipynb` → `NN6.ipynb`) reflects a major milestone i
   - `analysis.py`: Code for analyzing model results. Examples in NNx.ipynb.
   - `visualization.py`: Code for visualizing training progress, weights, etc.
 
-- **`NN1.ipynb`**  
-  Manual weight initialization and forward pass demonstrations.
-
-- **`NN2.ipynb`**  
-  Implementation of backpropagation; comparison of mini-batch vs full-data training.
-
-- **`NN3.ipynb`**  
-  Experiment comparing RMSProp and Momentum optimization strategies.
-
-- **`NN4.ipynb`**  
-  Shift to classification tasks and adjustments to loss/activation functions.
-
-- **`NN5.ipynb`**  
-  Comparison of architectures with varying layers, neurons, and activations.
-
-- **`NN6.ipynb`**  
-  Regularization experiments: L1, L2, and early stopping.
+- **`NNx.ipynb`**  
+  Examples and experiments.
 
 - **`report.ipynb`**  
   Draft notebook for report.
